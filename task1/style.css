@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: stretch;
+    justify-content: left;
+    height: 700px;
+    background: url('https://images.unsplash.com/photo-1669701940746-737a90f68ec7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMTV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60') bottom no-repeat;
+    background-size: cover;
+}
+
+.a {
+    color: rgb(64, 34, 160);
+    font-size: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

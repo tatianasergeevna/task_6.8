@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    align-items:stretch;
+    justify-content: left;
+    height: 700px;
+    background: url('https://images.unsplash.com/photo-1669701940746-737a90f68ec7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMTV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60') bottom no-repeat;
+    background-size: cover;
+}
+
+p {
+    padding: 10px;
+    width: 700px;
+    height: 40px;
+}
+
+form {
+    width: 100%;
+    top: 30%;
+}
+
+#userTextField {
+    margin: 20px;
+}
+
+.text {
+    margin: 40px 40px 10px;
+    padding: 0px;
+    color: rgb(36, 18, 95);
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button {
+    margin: 20px 10px 10px;
+    padding: 5px;
+    border-color: rgb(41, 22, 138);
+    width: 400px;
+    height: 50px;
+    font-size: 1rem;
+    color: rgb(56, 29, 145);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(114, 248, 248);
+}
+
+button:hover {
+    color: #d365f5;
+}
+
+.userText {
+    margin: 20px;
+    color: rgb(79, 6, 110);
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(188, 248, 248);
+}

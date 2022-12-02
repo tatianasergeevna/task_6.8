@@ -1,0 +1,17 @@
+#trafficLight {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: black;
+}
+
+body {
+    margin: 20px;
+    padding: 20px;
+    display:grid;
+    align-items: stretch;
+    justify-content: left;
+    height: 620px;
+    background: url('https://images.unsplash.com/photo-1669701940746-737a90f68ec7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMTV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60') bottom no-repeat;
+    background-size: cover;
+}
