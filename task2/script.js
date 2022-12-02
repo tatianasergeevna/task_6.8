@@ -2,6 +2,7 @@ const consolelog = document.querySelector('#consoleLog')
 
 consoleLog.addEventListener('click',
 (e) => {
+    console.log('Метод для вывода сообщения в веб-консоль.')
     alert('Метод для вывода сообщения в веб-консоль.')
 })
 
@@ -18,5 +19,5 @@ const prompt_1 = document.querySelector('#prompt')
 
 prompt_1.addEventListener('click',
 (e) => {
-    alert('Метод для ввода информации или запроса на ввод текста в диалоговом окне.')
+    prompt('Метод для запроса на ввод текста (информации) в диалоговом окне.')
 })

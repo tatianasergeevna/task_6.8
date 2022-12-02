@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    display: grid;
+    display: table;
     align-items: center;
     justify-content: left;
     height: 700px;
@@ -9,13 +9,23 @@ body {
     background-size: cover;
 }
 
+div {
+    margin: 0px 40px 0px;
+    padding: 10px;
+    text-align: left;
+    color: rgb(73, 55, 132);
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .a {
-    color: rgb(115, 75, 244);
-    font-size: 3rem;
+    margin: 20px 10px 10px;
+    color: rgb(94, 64, 191);
+    font-size: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
 }
 
 a:hover {
-    color: #f852e2;
+    color: #e848da;
 }
